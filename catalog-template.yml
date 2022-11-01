@@ -1247,7 +1247,7 @@ redis:
         displayName: "3 node Elasticache redis5.0.6, persistent storage, 1.37GiB memory limit"
       free: false
       securityGroup: (( grab meta.redis.security_group ))
-      engineVersion: 5.0.6
+      engineVersion: 6.2.0
       numberCluster: 3
       nodeType: cache.t3.small
       subnetGroup: (( grab meta.redis.subnet_group ))
